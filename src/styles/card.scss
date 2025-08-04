@@ -1,5 +1,4 @@
 .card {
-  // display: flex;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
 
@@ -36,7 +35,8 @@
   }
 
   &:hover {
-    transform: scale(120%);
+    cursor: pointer;
+    transform: scale(1.2);
 
     .card__name {
       color: $hover-name;
@@ -70,6 +70,8 @@
 
     border: 1px solid $button-color;
     border-radius: 5px;
+
+    transition-duration: 300ms;
 
     &:hover {
       background-color: white;
