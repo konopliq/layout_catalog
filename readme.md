@@ -40,6 +40,7 @@ This is possible because [we use the Parcel library](https://en.parceljs.org/scs
 
 
 
+
 - [x] All components follow BEM and use SCSS
 - [x] Repeated sizes and special colors are put to variables
 - [x] Grid is used for the columns
